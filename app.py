@@ -4,7 +4,7 @@ import plotly.express as px
 
 SHEET_ID = "ใส่_SHEET_ID"
 SHEET_NAME = "Data"
-URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={SHEET_NAME}"
+URL = f"https://docs.google.com/spreadsheets/d/1r4oU1kfI2pmUmhE18zEZk0BcsatOsDPVt59kS8tvL88/edit?usp=sharing{SHEET_ID}final2={SHEET_NAME}"
 
 st.set_page_config(page_title="Temperature Monitor", page_icon="🌡️", layout="wide")
 st.title("🌡️ ระบบตรวจวัดอุณหภูมิและความชื้น")
